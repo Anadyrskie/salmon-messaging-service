@@ -1,0 +1,15 @@
+{
+  "name": "salmon-messaging-service",
+  "version": "1.0.0",
+  "description": "Send SMS message on ADF&G Fisher Announcement",
+  "main": "sms.js",
+  "scripts": {
+    "start": "node sms.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "rss-parser": "^3.13.0",
+    "twilio": "^4.11.0"
+  }
+}
